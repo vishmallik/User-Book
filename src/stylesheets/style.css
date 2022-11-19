@@ -1,0 +1,254 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  line-height: 1.5;
+  background-color: rgb(217, 255, 217);
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 2rem;
+  font-weight: 700;
+}
+input {
+  padding: 0.8rem 1rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 0.5rem;
+  width: 100%;
+}
+
+form {
+  border: 1px solid lawngreen;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 auto;
+}
+input[type="submit"] {
+  background-color: rgb(75, 214, 40);
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+strong {
+  font-weight: 600;
+}
+ol {
+  list-style: decimal;
+  width: 35%;
+  text-align: left;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+li {
+  margin: 1rem 0;
+}
+p {
+  display: inline-block;
+  margin-right: 1rem;
+}
+button {
+  background-color: turquoise;
+  margin-right: 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+  color: white;
+}
+.delete-btn {
+  background-color: rgb(236, 56, 56);
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  text-decoration: underline;
+}
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-color: rgba(0, 0, 0, 0.911);
+}
+.fas {
+  position: absolute;
+  color: rgba(255, 0, 0, 0.63);
+  top: 30px;
+  font-size: 2rem;
+  right: 30px;
+}
+.fas:hover {
+  color: red;
+  cursor: pointer;
+}
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
